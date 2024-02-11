@@ -248,32 +248,6 @@ int main()
     
     
     
-    const int MAX_SIZE = 560;
-    std::cout << "Hello World!\n";
-    ShowMainMenu();
-    /*
-    double A[MAX_SIZE], B[MAX_SIZE],C[MAX_SIZE];
-    int n,m;
-    n = RndInputArray(MAX_SIZE, A);
-    WriteArrayTextFile(n, A, "1.txt");
-    m = ReadArrayTextFile(MAX_SIZE, B, "1.txt");
-    cout << " \n m= " << m << endl;
-    for (int i = 0; i < m; i++)
-        cout << B[i] << "   ";
-    WriteArrayBinFile(n, A, "1.bin");
-    m = ReadArrayBinFile(MAX_SIZE, C, "1.bin");
-    cout << " \n m= " << m << endl;
-    for (int i = 0; i < m; i++)
-        cout << C[i] << "   ";
-    cout << "\n  Vector \n";
-    vector<double> vA;
-    ConsoleInputVector(MAX_SIZE, vA);
-    for (auto v : vA) {
-        cout << v << "   ";
-    }
-*/
-    TaskV();
-    return 1;
 
 }
 
